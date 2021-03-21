@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Haiku Checker/Creator</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Write A Haiku</h1>
+    <div>
+      <form id="haikuForm">
+        <textarea id="haikuText" name="haiku" rows="5" cols="33">
+        </textarea>
+        
+        <button type="submit" class="btn">Create!</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </div>
 </body>
 </html>
